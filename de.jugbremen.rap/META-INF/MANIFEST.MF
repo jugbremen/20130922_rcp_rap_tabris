@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rap
+Bundle-SymbolicName: de.jugbremen.rap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.jugbremen.rap.Activator
+Require-Bundle: org.eclipse.rap.ui;bundle-version="2.1.1",
+ org.eclipse.core.runtime,
+ de.jugbremen.app;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

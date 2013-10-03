@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP App
+Bundle-SymbolicName: de.jugbremen.app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.jugbremen.app.Activator
+Bundle-Vendor: JUG Bremen
+Require-Bundle: org.eclipse.ui;resolution:=optional,
+ org.eclipse.rap.ui;resolution:=optional,
+ org.eclipse.core.runtime,
+ de.jugbremen.rap.ui;bundle-version="1.0.0";resolution:=optional,
+ de.jugbremen.rcp;bundle-version="1.0.0";resolution:=optional
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+
